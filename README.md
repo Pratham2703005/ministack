@@ -28,7 +28,7 @@ LocalStack recently moved its core services behind a paid plan. If you relied on
 - **55+ AWS services** emulated on a single port (4566)
 - **Drop-in compatible** — works with `boto3`, AWS CLI, Terraform, CDK, Pulumi, any SDK
 - **Real infrastructure** — RDS spins up actual Postgres/MySQL containers, ElastiCache spins up real Redis, Athena runs real SQL via DuckDB (full image only), ECS runs real Docker containers
-- **Tiny footprint** — ~270MB image, ~21MB RAM at idle vs LocalStack's ~1GB image and ~500MB RAM
+- **Tiny footprint** — ~270MB image, ~30MB RAM at idle vs LocalStack's ~1GB image and ~500MB RAM
 - **Fast startup** — under 2 seconds, HTTP/2 (h2c) supported
 - **MIT licensed** — use it, fork it, contribute to it
 
